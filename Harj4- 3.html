@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<ul id ="foo">
+
+</ul>
+
+<script>
+    'use strict';
+    let koira, koira1, koira2, koira3 , koira4, koira5;
+
+    koira = prompt('Anna koiralle nimi');
+    koira1 = prompt('Anna koiralle nimi');
+    koira2 = prompt('Anna koiralle nimi');
+    koira3 = prompt('Anna koiralle nimi');
+    koira4 = prompt('Anna koiralle nimi');
+    koira5 = prompt('Anna koiralle nimi');
+
+
+    var koiralista = [koira, koira1, koira2, koira3 , koira4, koira5];
+
+   var aakkos = koiralista.sort();
+   var aakkos2 = aakkos.reverse();
+    var koiralen = aakkos2.length;
+
+
+
+   for (var i = 0; i < koiralen; i++)
+   {
+     document.write("<li>" + aakkos2[i] + "</li>");
+
+   }
+
+
+
+
+
+
+</script>
+
+</body>
+</html>

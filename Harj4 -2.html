@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Harj2</title>
+</head>
+<body>
+<script>
+    'use strict';
+    let osallistujat;
+    let nimi;
+    let osallistujalista= [];
+    let nimilista = [];
+    let i;
+
+
+    osallistujat = prompt('Anna osallistujien määrä');
+
+    for (i = 0; i < osallistujat; i++)
+    {
+      nimi = prompt('Anna osallistujan nimi');
+      document.write((i +1) + ' Osallistuja: ' +  nimi + "<br>" );
+      osallistujalista[i] = nimi;
+    }
+
+
+
+</script>
+</body>
+</html>
